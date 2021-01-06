@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Calendário</h1>
+	<table id='mes'>
+		<tr id="dias">
+			<td>Domingo</td>
+			<td>Segunda</td>
+			<td>Terça</td>
+			<td>Quarta</td>
+			<td>Quinta</td>
+			<td>Sexta</td>
+			<td>Sábado</td>
+		</tr>
+		<tr id="semana1" class="semana">
+			
+		</tr>
+		<tr id="semana2" class="semana">
+			
+		</tr>
+		<tr id="semana3" class="semana">
+			
+		</tr>
+		<tr id="semana4" class="semana">
+			
+		</tr>
+		<tr id="semana5" class="semana">
+			
+		</tr>
+		<tr id="semana6" class="semana">
+			
+		</tr>
+	</table>
+
+	<div id="chooseData">
+
+		<label for="selectM">Escolha o mês e o ano:</label>
+		<br>
+		<input type="number" value=2021 min=1920 id="year" onchange="changeData()";/>
+		<select id="selectM" onchange="changeData();">
+			<option value="0">Janeiro</option>
+			<option value="1">Fevereiro</option>
+			<option value="2">Março</option>
+			<option value="3">Abril</option>
+			<option value="4">Maio</option>
+			<option value="5">Junho</option>
+			<option value="6">Julho</option>
+			<option value="7">Agosto</option>
+			<option value="8">Setembro</option>
+			<option value="9">Outubro</option>
+			<option value="10">Novembro</option>
+			<option value="11">Dezembro</option>
+		</select>
+
+		
+	</div>
+	
+
+	<script src="script.js">
+	</script>
+</body>
+</html>

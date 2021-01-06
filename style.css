@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+}
+#mes tr td {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#mes tr#dias td {
+	background-color: #333;
+	color: white;
+}
+
+#mes {
+	margin: 0 auto;
+	margin-top: 3%;
+
+}
+
+#mes .semana {
+	border: 1px solid black;
+}
+
+#chooseData {
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#chooseData select, input {
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+
+}
+
+h1 {
+	margin: 0 auto;
+	margin-top: 32px;
+	padding: 0;
+	text-align: center;
+}
+#year {
+}
+
+#selectM {
+
+	color: white;
+	background-color: #333;
+}
